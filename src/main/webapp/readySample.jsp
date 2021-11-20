@@ -12,7 +12,7 @@
 	});
 	
 	$(document).ready(function(){
-		$("#result").append("ready2 <br>");	
+		$("#result").append("ready 2 <br>");	
 	});
 	
 	// 위와 동일한 코드
