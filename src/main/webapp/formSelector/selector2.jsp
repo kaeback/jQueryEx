@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+	/*
+		:text : type 속성이 text인 input 태그를 선택한다.
+		:password : type 속성이 password인 input 태그를 선택한다.
+		:radio : type 속성이 radio인 input 태그를 선택한다.
+		:checkbox : type 속성이 checkbox인 input 태그를 선택한다.
+		:submit : type 속성이 submit인 input 태그를 선택한다.
+		:reset : type 속성이 reset인 input 태그를 선택한다.
+		:button : type 속성이 button인 input 태그를 선택한다.
+		:image : type 속성이 image인 input 태그를 선택한다.
+		:file : type 속성이 file인 input 태그를 선택한다.
+	*/
+	$(function(){
+		$(":text").css("background-color", "yellow");
+		$(":password").css("background-color", "red");
+	});
+</script>
+</head>
+<body>
+	<input type="text"><br>
+	<input type="password"><br>
+</body>
+</html>

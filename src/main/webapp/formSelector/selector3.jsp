@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+	/*
+		:enabled : 활성 상태인 input 태그가 선택된다.
+		:disabled : 비활성 상태인 input 태그가 선택된다.
+		:selected : select 태그 내의 option 태그 중 현재 선택되어 있는 태그를 선택한다.
+		:checked : checkbox나 radio 에서 현재 check 되어 있는 태그를 선택한다.
+	*/
+	$(function(){
+		$(":enabled").css("background-color", "yellow");
+		$(":disabled").css("background-color", "red");
+	});
+</script>
+</head>
+<body>
+	<input type="text">활성 상태<br>
+	<input type="password">활설 상태<br>
+	<input type="text" disabled="disabled">비활성 상태<br>
+	<input type="password" disabled="disabled">비활성 상태<br>
+</body>
+</html>
