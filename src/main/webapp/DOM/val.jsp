@@ -7,13 +7,15 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+
+	// val : 입력 도구들의 value 속성값을 제어한다.
 	function getA1() {
 		var str = $("#a1").val();
 		alert(str);
 	}
 
 	function setA1() {
-		$("#a1").val("12");
+		$("#a1").val("1234");
 	}
 </script>
 </head>

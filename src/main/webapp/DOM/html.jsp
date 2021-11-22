@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+
+	// html : 태그 내부의 html을 제어한다.
 	function getHtml() {
 		var html = $("#a1").html();
 		alert(html);

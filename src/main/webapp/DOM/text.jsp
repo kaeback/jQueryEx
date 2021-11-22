@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+
+	// text : 태그 사이의 문자열을 제어한다.
 	function getA() {
 		var str = $("#a1").text(); 
 		alert(str);
