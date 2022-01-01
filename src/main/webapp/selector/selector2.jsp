@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+	/* 선택자1 > 선택자2 : 태그의 바로 하위의 태그들을 선택할 때 사용 */
 	$(function(){
 		$("#a1 > h1").css("background-color", "yellow");
 	});

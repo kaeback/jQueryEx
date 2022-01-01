@@ -16,7 +16,7 @@
 
 	function getA2() {
 		var str = $("#a2").text();
-		alert(str);
+		alert(str);// HTML 코드는 버리고 텍스트만 가져온다.
 	}
 
 	function setA3() {
@@ -24,6 +24,7 @@
 	}
 
 	function setHtml() {
+		// HTML 코드를 넣어도 문자열로 인식한다.
 		$("#a3").text("<a href='http://www.apple.co.kr'>apple</a>");
 	}
 </script>

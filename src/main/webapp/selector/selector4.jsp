@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+	/* 선택자1선택자2 : 모든 선택자를 만족하는 태그를 선택 */
 	$(function(){
 		$("div.a1").css("background-color", "yellow");
 		$("div.a2").css("background-color", "red");

@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+	/* 
+		:only-child : 영역내에서 선택자에 해당하는 태그가 하나일 경우 선택된다. 다른 태그가 있으면 선택되지 않는다.
+		:only_of-type : 영역내에서 선택자에 해당하는 태그가 하나일 경우 선택
+	*/
 	$(function(){
 		$("p:only-child").css("background-color", "yellow");
 		$("p:only-of-type").css("color", "orange");

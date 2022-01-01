@@ -31,7 +31,7 @@
 <body>
 	<h1 id="a1">h1 태그</h1>
 	<button onclick="getCss()">css 읽어오기</button>
-	<button onclick="setCss()">css 설정하기</button>>
+	<button onclick="setCss()">css 설정하기</button>
 	<div id="result"></div>
 </body>
 </html>

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+	// attr : 태그의 속성을 제어한다.
 	function getAttr() {
 		var src = $("#a1").attr("src");
 		var width = $("#a1").attr("width");

@@ -18,7 +18,7 @@
 	}
 
 	function append2() {
-		var p = $("<p>");
+		var p = $("<p>");	// p 태그 객체를 만든다.
 		p.text("새롭게 추가한 p태그 2");
 
 		$("#a1").append(p);

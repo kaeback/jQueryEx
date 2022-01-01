@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
+	/* 선택자1 ~ 선택자2 : 선택자1 태그 다음에 있는 모든 선택자2 태그를 선택 */
 	$(function(){
 		$("#a1 ~ p").css("background-color", "red");
 	});
